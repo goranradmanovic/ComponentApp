@@ -24,12 +24,12 @@ img {
 
   --round-md: 6px;
   --round-sm: 2px;
-  
+
   /* Colors */
   --linear-gradient-bkg: linear-gradient(130deg, rgba(131,110,182,1) 0%, rgba(78,86,140,1) 74%, rgba(59,76,125,1) 100%);
   --primary-bkg: #FFFFFF;
   --green-color: #7fd31b;
-  --purpure-color: #6681ff;
+  --purple-color: #6681ff;
   --grey-color: #223747;
 }
 
@@ -120,10 +120,6 @@ body {
   background-color: var(--green-color);
 }
 
-.card__body__list_item_btn > span {
-  font-size: 1.4em;
-}
-
 .card__footer button {
   width: 100%;
   height: 50px;
@@ -134,7 +130,7 @@ body {
   cursor: pointer;
   transition: opcity .4s ease-in-out;
   color: var(--primary-bkg);
-  background-color: var(--purpure-color);
+  background-color: var(--purple-color);
 }
 
 .card__footer button:hover {
